@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Validator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+   
+</head>
+<body>
+    
+    <div class="container">
+        <form id="form" class="form">
+            <h2> Register With Us</h2>
+
+            <!--Username-->
+            <div class="form-control">
+                <label for="username">UserName</label>
+                <input type="text" id="username" placeholder="Enter UserName">
+                
+                <small>Error Message</small>
+            </div>
+
+            <!--Email-->
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Email">
+                
+                <small>Error Message</small>
+            </div>
+
+            <!--Password-->
+            <div class="form-control">
+                <label for="password">PassWord</label>
+                <input type="password" id="password" placeholder="Enter PassWord" >
+                
+                
+                <small>Error Message</small>
+            </div>
+
+            <!--Confirm Password-->
+            <div class="form-control">
+                <label for="password2">Confirm PassWord</label>
+                <input type="password" id="password2" placeholder="Enter Confirm PassWord">
+                
+                
+                <small>Error Message</small>
+            </div>
+
+
+            <!--AGE-->
+            <div class="form-control">
+                <label for="age">Age</label>
+                <input type="text" id="age" placeholder="Enter Age" >
+                
+                <small>Error Message</small>
+            </div>
+
+            <button class="btn"> Submit </button>
+
+        </form>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
